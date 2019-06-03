@@ -8,12 +8,15 @@ Running on your local computer. (For Intellij Users only) FEED ticket for other 
 5. Pray that it runs
 
 GET localhost:8080/resource
+
 Will return all of the data current in the DB
 
 PUT localhost:8080/resource/data
+
 Will update the person with the specific id
 
-DELETE localhost:8080/resource/data/<id>
+DELETE localhost:8080/resource/data/{id}
+
 Will delete the id specified
 
 Describe the following concepts and how you would approach the solution.
